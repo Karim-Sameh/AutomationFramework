@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-12T18:28:48 EET" name="FreeCRM Application Test" finished-at="2025-01-12T18:30:46 EET" duration-ms="118732">
+    <groups>
+      <group name="Sanity">
+        <method signature="contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.freecrm.testcases.contactsPageTest@394df057]" name="newContactTest" class="com.freecrm.testcases.contactsPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="E2E">
+        <method signature="contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.freecrm.testcases.contactsPageTest@394df057]" name="newContactTest" class="com.freecrm.testcases.contactsPageTest"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test started-at="2025-01-12T18:28:48 EET" name="End to End Test" finished-at="2025-01-12T18:30:46 EET" duration-ms="118732">
+      <class name="com.freecrm.testcases.contactsPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:28:48 EET" name="setUp" finished-at="2025-01-12T18:29:14 EET" duration-ms="25781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:29:14 EET" name="newContactTest" data-provider="testData" finished-at="2025-01-12T18:29:22 EET" duration-ms="8321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sameh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Microsoft]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newContactTest -->
+        <test-method is-config="true" signature="shutDown(java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:29:22 EET" name="shutDown" finished-at="2025-01-12T18:29:25 EET" duration-ms="2334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:29:25 EET" name="setUp" finished-at="2025-01-12T18:29:48 EET" duration-ms="23344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:29:48 EET" name="newContactTest" data-provider="testData" finished-at="2025-01-12T18:30:02 EET" duration-ms="13816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Youssef]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LG]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newContactTest -->
+        <test-method is-config="true" signature="shutDown(java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:30:02 EET" name="shutDown" finished-at="2025-01-12T18:30:04 EET" duration-ms="2304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:30:04 EET" name="setUp" finished-at="2025-01-12T18:30:27 EET" duration-ms="23124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:30:27 EET" name="newContactTest" data-provider="testData" finished-at="2025-01-12T18:30:44 EET" duration-ms="16921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Microsoft]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newContactTest -->
+        <test-method is-config="true" signature="shutDown(java.lang.reflect.Method)[pri:0, instance:com.freecrm.testcases.contactsPageTest@394df057]" started-at="2025-01-12T18:30:44 EET" name="shutDown" finished-at="2025-01-12T18:30:46 EET" duration-ms="2358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.contactsPageTest.newContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.freecrm.testcases.contactsPageTest -->
+    </test> <!-- End to End Test -->
+  </suite> <!-- FreeCRM Application Test -->
+</testng-results>
