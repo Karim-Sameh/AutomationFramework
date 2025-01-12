@@ -77,10 +77,11 @@ The project relies on the following key libraries and tools:
 ## Project Structure
 
 The project follows a modular structure to ensure maintainability and scalability:
-
+```
 src/
-├── com.freecrm.base           # Base classes (e.g., testBase)
-├── com.freecrm.config         # Configuration file (config.properties)
-├── com.freecrm.testcases      # Test cases (e.g., loginPageTest, homePageTest)
-├── com.freecrm.util           # Utilities (e.g., testUtils, WebListener)
-└── testng.xml                 # TestNG test suite
+├── com.freecrm.base       # Base classes (e.g., testBase)
+├── com.freecrm.config     # Configuration file (config.properties)
+├── com.freecrm.testcases  # Test cases (e.g., loginPageTest, homePageTest)
+├── com.freecrm.util       # Utilities (e.g., testUtils, WebListener)
+└── testng.xml             # TestNG test suite
+```
