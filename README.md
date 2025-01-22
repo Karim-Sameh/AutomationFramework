@@ -33,7 +33,7 @@ This is a Selenium-based automation framework for testing the FreeCRM web applic
 
 ## Prerequisites
 
-- **Java Development Kit (JDK)**: Version 8 or higher.
+- **Java Development Kit (JDK)**: Version 17 or higher.
 - **Maven or JAR Files**: Ensure all dependencies are available.
 - **Browser Drivers**: Chrome, Firefox, and Edge drivers managed automatically via WebDriverManager.
 
